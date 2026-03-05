@@ -2,7 +2,7 @@ module github.com/getcreddy/creddy-dockerhub
 
 go 1.24.0
 
-require github.com/getcreddy/creddy-plugin-sdk v0.0.0-20260222200520-65977e882824
+require github.com/getcreddy/creddy-plugin-sdk v0.0.1
 
 require (
 	github.com/fatih/color v1.13.0 // indirect
