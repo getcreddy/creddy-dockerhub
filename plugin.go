@@ -124,7 +124,7 @@ func (p *DockerHubPlugin) GetCredential(ctx context.Context, req *sdk.Credential
 	return &sdk.Credential{
 		Value:      accessToken,
 		ExpiresAt:  expiresAt,
-		ExternalID: tokenUUID,
+		Credential: tokenUUID,
 		Metadata: map[string]string{
 			"token_name": tokenName,
 			"username":   p.config.Username,
